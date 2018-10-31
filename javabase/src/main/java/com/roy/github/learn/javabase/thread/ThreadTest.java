@@ -1,7 +1,7 @@
 package com.roy.github.learn.javabase.thread;
 
 /**
- * Created by xiexiaoqing1 on 2018/10/31.
+ * Created by roy on 2018/10/31.
  */
 public class ThreadTest {
 

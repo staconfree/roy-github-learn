@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * Created by Administrator on 2018/10/29 0029.
  * see https://segmentfault.com/a/1190000011105644
  */
-public class Guava {
+public class GuavaCache {
     public static void main(String[] args) {
         helloGuava();
         expireCacheAfterWrite();

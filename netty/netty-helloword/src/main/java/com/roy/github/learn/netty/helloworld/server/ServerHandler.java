@@ -1,13 +1,11 @@
 package com.roy.github.learn.netty.helloworld.server;
 
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelFutureListener;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.channel.*;
 
 import java.net.InetAddress;
 import java.util.Date;
 
+@ChannelHandler.Sharable
 public class ServerHandler extends SimpleChannelInboundHandler<String> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {

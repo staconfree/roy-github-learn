@@ -11,7 +11,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 /**
- * Created by xiexiaoqing1 on 2018/11/6.
+ * Created by roy on 2018/11/6.
  */
 public class WebSocketJavaClient {
 

@@ -7,9 +7,9 @@
     <artifactId>githup.learn.netty</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>参考 https://github.com/sanshengshui/netty-learning-example</description>
 
     <modules>
         <module>netty-helloword</module>
+        <module>netty-websocket</module>
     </modules>
 </project>

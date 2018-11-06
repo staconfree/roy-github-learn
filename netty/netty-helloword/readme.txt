@@ -1,3 +1,6 @@
+helloworld 参考 https://github.com/sanshengshui/netty-learning-example
+
+扩展阅读：
 一、CPU和IO读取的关系可以参考：http://blueskator.iteye.com/blog/2231755
 CPU与IO设备间数据传输主要有四种方式：
 1、查询控制方式：

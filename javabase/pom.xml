@@ -19,6 +19,12 @@
             <artifactId>commons-codec</artifactId>
             <version>1.9</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-crypto</artifactId>
+            <version>4.1.6</version>
+            <!--https://github.com/sanshengshui/netty-learning-example 该项目用了比较多的这个包-->
+        </dependency>
 
     </dependencies>
 

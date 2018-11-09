@@ -19,6 +19,15 @@ public class AesUtil {
     // PASSWORD = resource.getString("PASSWORD");
     // }
 
+    public static void main(String[] args) throws Exception {
+        String me = "CAT0001";
+        String content = String.valueOf(Calendar.getInstance().getTimeInMillis());
+        String token = me + "," + content;
+        token = "CAT0001,1478842909958";
+        System.out.println("加密字符：" + token);
+        System.out.println("加密后的字符：" + aesEncrypt(token));
+        System.out.println("解密后的字符：" + aesDecrypt(aesEncrypt(token)));
+    }
 
     public static String aesEncrypt(String content) throws Exception {
         byte[] encryptResult = encrypt(content);
@@ -114,13 +123,5 @@ public class AesUtil {
         }
         return result;
     }
-    public static void main(String[] args) throws Exception {
-        String me = "CAT0001";
-        String content = String.valueOf(Calendar.getInstance().getTimeInMillis());
-        String token = me + "," + content;
-        token = "CAT0001,1478842909958";
-        System.out.println("加密字符：" + token);
-        System.out.println("加密后的字符：" + aesEncrypt(token));
-        System.out.println("解密后的字符：" + aesDecrypt(aesEncrypt(token)));
-    }
+
 }

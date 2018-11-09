@@ -9,11 +9,20 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-
     <modules>
         <module>javabase</module>
         <module>netty</module>
+        <module>springboot</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+
+    </dependencies>
 
     <build>
         <plugins>

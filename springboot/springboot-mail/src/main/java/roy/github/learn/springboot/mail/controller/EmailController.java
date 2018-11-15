@@ -17,6 +17,7 @@ public class EmailController {
 
     @RequestMapping("/sendEmail")
     public String sendEmail(HttpServletRequest request) {
+        System.out.println("========sendEmail begin=====");
         String value = request.getParameter("value");
         String title=null;
         String content=null;

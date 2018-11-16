@@ -32,3 +32,6 @@
         </data-source>
 </data-sources>
 ```
+
+6、配置告警参考：https://github.com/dianping/cat/blob/master/cat-doc/posts/ch2-config/alarm.md
+

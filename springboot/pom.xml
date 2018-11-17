@@ -11,6 +11,8 @@
     <modules>
         <module>springboot-shiro</module>
         <module>springboot-mail</module>
+        <module>springboot-servlet</module>
+        <module>springboot-webflux</module>
     </modules>
 
 

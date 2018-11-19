@@ -1,4 +1,4 @@
-package com.roy.github.learn.javabase.guava;
+package com.roy.github.learn.guava;
 
 import com.google.common.base.Splitter;
 import com.google.common.cache.Cache;

@@ -36,6 +36,7 @@
 6、配置告警参考：https://github.com/dianping/cat/blob/master/cat-doc/posts/ch2-config/alarm.md
 首次更改配置后要重启才会生效
 
-7、看大众点评如何通过实时监控系统CAT打造7*24服务 http://www.itshuji.com/technical-article/616.html
-
+###参考资料
+[看大众点评如何通过实时监控系统CAT打造7*24服务](http://www.itshuji.com/technical-article/616.html)<br/>
+[大众点评Cat监控系统的部署与操作说明](https://my.oschina.net/yanyimin/blog/1517724)<br/>
 

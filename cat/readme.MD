@@ -39,4 +39,6 @@
 ###参考资料
 [看大众点评如何通过实时监控系统CAT打造7*24服务](http://www.itshuji.com/technical-article/616.html)<br/>
 [大众点评Cat监控系统的部署与操作说明](https://my.oschina.net/yanyimin/blog/1517724)<br/>
-
+dubbo接入cat：https://github.com/fanlychie/cat-client-dubbo
+mybatis接入cat：https://github.com/fanlychie/cat-client-mybatis
+CAT+Feign+hystrix整合消息调用链路:https://www.jianshu.com/p/66bfcce5f846

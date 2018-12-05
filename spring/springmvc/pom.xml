@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.roy</groupId>
-    <artifactId>github-learn-spring</artifactId>
+    <artifactId>github-learn-springmvc</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,10 +14,14 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>springall</module>
-        <module>springbeans</module>
-        <module>springmvc</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.0.4.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
 
 </project>

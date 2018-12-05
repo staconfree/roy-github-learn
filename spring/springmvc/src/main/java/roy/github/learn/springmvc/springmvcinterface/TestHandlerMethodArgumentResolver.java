@@ -1,4 +1,4 @@
-package roy.github.learn.spring.springmvc.springmvcinterface;
+package roy.github.learn.springmvc.springmvcinterface;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.lang.Nullable;

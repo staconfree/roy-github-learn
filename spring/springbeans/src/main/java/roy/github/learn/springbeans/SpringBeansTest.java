@@ -1,4 +1,4 @@
-package roy.github.learn.spring.springbeans;
+package roy.github.learn.springbeans;
 
 /**
  * Created by roy on 2018/11/24 0024.

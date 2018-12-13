@@ -1,0 +1,5 @@
+HashMap什么时候重写hashcode和equals方法，为什么需要重写
+ArrayList和LinkedList底层实现有什么差别?他们各自适用于哪些场合?
+volatitle关键字有什么作用?由此展开,了解下线程内存和堆内存的差别
+CompletableFuture通过它怎么实现多线程并发控制?
+

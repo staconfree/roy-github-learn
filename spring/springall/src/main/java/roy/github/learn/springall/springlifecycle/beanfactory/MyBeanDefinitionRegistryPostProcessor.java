@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by roy on 2018/12/13.
  * BeanDefinitionRegistryPostProcessor 触发实例化和接口运行是在 AbstractApplicationContext.invokeBeanFactoryPostProcessors 里面
- * 参考mybatis的MapperScannerConfigurer类实现
+ * 参考mybatis的 MapperScannerConfigurer 类实现
  * @AbstractApplicationContext
  */
 @Component

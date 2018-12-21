@@ -1,4 +1,4 @@
-package com.roy.github.learn.javabase.sensitivewords;
+package com.roy.github.learn.demo.sensitivewords;
 
 import com.google.common.collect.Sets;
 import org.slf4j.Logger;

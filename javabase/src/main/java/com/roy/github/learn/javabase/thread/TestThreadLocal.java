@@ -4,7 +4,7 @@ import java.lang.ref.WeakReference;
 
 /**
  * TODO 线程变量,WeakReference
- * Created by xiexiaoqing1 on 2018/12/4.
+ * Created by roy on 2018/12/4.
  * ThreadLocal内存溢出的原因：https://blog.csdn.net/bntx2jsqfehy7/article/details/78315161
  */
 public class TestThreadLocal {
